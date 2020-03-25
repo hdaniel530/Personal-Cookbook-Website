@@ -1,0 +1,49 @@
+body{
+  margin: 0;
+}
+center{
+  font-family: 'Quicksand', sans-serif;
+}
+td{
+  border: 1px solid black;
+  width: 450px;
+  height: auto;
+  text-align: center;
+}
+nav{
+  background-color: #89cff0;
+}
+nav a{
+  color: white;
+}
+.cookbooks, .images, .results{
+  display: inline-block;
+  column-count: 3;
+  column-width: 25em;
+}
+textarea{
+  width: 300px;
+  height: 200px;
+}
+li span{
+  position: relative;
+  list-style-type: circle;
+  left:0.5em;
+}
+.login{
+  vertical-align: top;
+  padding-top: 7px;
+}
+.register{
+  vertical-align: top;
+  padding-bottom: 14px;
+}
+.login h3, .register h3{
+  background-color: #89cff0;
+}
+.card-body{
+  text-align: left;
+}
+.cookbook, .image, .result{
+  break-inside: avoid-column;
+}

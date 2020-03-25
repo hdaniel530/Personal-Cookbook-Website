@@ -1,0 +1,28 @@
+<h2>Welcome!</h2>
+<br>
+<strong><em>{{error}}</em></strong>
+<table>
+  <tr>
+  <td>
+  <form method="POST" action="/login">
+  <div class="login">
+    <h3>Login to view your cookbooks!</h3>
+  </div>
+      Username: <input type="text" name="username"><br><br>
+      Password: <input type="password" name="password"><br><br>
+      <button type="submit" class="btn btn-info">Login!</button>
+  </form>
+  <br>
+  </td>
+  <td>
+  <form method="POST" action="/register">
+  <div class="register">
+    <h3>Signup to create your cookbooks!</h3>
+  </div>
+    Username: <input type="text" name = "username"><br><br>
+    Password: <input type="password" name = "password"><br><br>
+    <button type="submit" class="btn btn-info">Signup!</button>
+  </form>
+  </td>
+  </tr>
+</table>

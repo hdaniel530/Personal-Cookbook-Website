@@ -1,0 +1,35 @@
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="/home">Home</a></li>
+    </ul>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="/myrecipes">My Recipes!</a></li>
+    </ul>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="/mygallery">My Creations and Food Gallery!</a></li>
+    </ul>
+    <form class="navbar-form navbar-left" action="/search">
+      <div class="form-group">
+        <input type="text" class="form-control" name = "search" placeholder="Search">
+      </div>
+      <button type="submit" class="btn btn-info">Submit</button>
+    </form>
+  </div>
+</nav>
+
+
+<h3>Create Cookbook!</h3>
+{{error}}
+<form method="POST" action="/cookbook/create" enctype="multipart/form-data" id="cookbook">
+  <img id="icon" width="100" height="100"/><br><br>
+  <input type="file" name="cookbookicon" accept="image/*" onchange="document.getElementById('icon').src = window.URL.createObjectURL(this.files[0])"><br><br>
+  Title: <input type="text" name="title"><br><br>
+  Tags: <input type="text" name="tags" value=""><br><br>
+  <button type="submit" class="btn btn-info">Create!</button>
+</form>
+
+<br><br>
+<form method="GET" action="/logout">
+  <button type="submit" class="btn btn-info">Logout</button>
+</form>
