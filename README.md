@@ -1,6 +1,3 @@
-The content below is an example project proposal / requirements document. Replace the text below the lines marked "__TODO__" with details specific to your project. Remove the "TODO" lines.
-
-
 # My Personal Cookbook!
 
 ## Overview
@@ -124,14 +121,13 @@ An Example Image with References:
 ## Research Topics
 
 
-* (5 points) Integrate user authentication
+* Integrate user authentication
     * Using passport for user authentication and registration which is an authentication middleware for Node
-* (2 points) Use a CSS framework such as Bootstrap
+* Use a CSS framework such as Bootstrap
     * Develop a stable and appealing interface for users
-* (4 points) Use external APIs
+* Use external APIs
     * Use GridFS and Multer APIs to store and retrieve images in the database
 
-11 points total out of 8 required points
 
 ## [Link to Initial Main Project File](app.js)
 
